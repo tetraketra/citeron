@@ -1,5 +1,5 @@
 # WARNING: 
 #  - Expects Python==3.12.5
-#  - Needs no specific environment. 
+#  - STD-only, so no `requirements.txt`.
 
 # TODO
