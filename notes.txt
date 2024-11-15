@@ -6,3 +6,6 @@ Support for custom allocators can be done a few ways:
    (weak symbols) 
 2. https://nullprogram.com/blog/2023/12/17/
    (uber fancy)
+
+Try some coding style tricks from nullprogram:
+- https://nullprogram.com/blog/2023/10/08/
