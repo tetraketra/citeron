@@ -16,7 +16,7 @@ static void lib_free(void* data, ptrdiff_t size, void* context){
 }
 
 allocator_t lib_allocator = {
-    .malloc  = lib_malloc, 
-    .free    = lib_free, 
+    .malloc  = lib_malloc,
+    .free    = lib_free,
     .context = NULL
 };

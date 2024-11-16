@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 #include <stddef.h>
-#include <assert.h> 
+#include <assert.h>
 
 #define ignore(any)   ((void)(any))
 
