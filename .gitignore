@@ -1,4 +1,10 @@
-.venv/
-citeron_debug
+# Local environment.
+.venv
+.vscode
+
+# Local build.
 citeron/build/*
+citeron_debug
+
+# Notes.
 *.txt
