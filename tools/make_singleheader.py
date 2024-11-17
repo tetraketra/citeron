@@ -41,7 +41,7 @@ if __name__ == "__main__":
                 outfile.write(f"\n/* ====[ FILE: {ip.name} ]==== */\n\n")
                 outfile.writelines(
                     filter(
-                        lambda l: all(k not in l for k in badline_keywords),
+                        lambda l: all(k not in l for k in badline_keywords),  # noqa: E741
                         infile.readlines(),
                     )
                 )
@@ -54,7 +54,7 @@ if __name__ == "__main__":
                 outfile.write(f"\n/* ====[ FILE: {ip.name} ]==== */\n\n")
                 outfile.writelines(
                     filter(
-                        lambda l: all(k not in l for k in badline_keywords),
+                        lambda l: all(k not in l for k in badline_keywords),  # noqa: E741
                         infile.readlines(),
                     )
                 )
