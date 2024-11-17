@@ -21,7 +21,7 @@ echo "\n\nExecuting with..."
 
 echo "FILES: $FILES"
 echo "WARNS: $WARNS"
-echo "FSANS: $FSAN"
+echo "FSANS: $FSANS"
 echo "LINKS: $LINKS"
 echo "FLAGS: $FLAGS"
 echo "INCLD: $INCLD"
