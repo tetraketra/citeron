@@ -14,12 +14,6 @@
 #include "common.h"
 #include "mem.h"
 
-/* Generic sized data. Useful for `void*` inputs. */
-typedef struct sized_t {
-    void*  data;
-    size_t size;
-} sized_t;
-
 /* Generic adjacent objects (Python's tuples if they weren't const). */
 typedef struct tuple_t {
     sized_t data;
